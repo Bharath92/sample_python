@@ -1,7 +1,8 @@
 language: python
 
-#runtime:
-#  nodePool: custom__x86_64__Ubuntu_16_04
+runtime:
+  - nodePool: u16
+  - nodePool: u16-BYON
   
 python:
  # - 2.6 
