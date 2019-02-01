@@ -3,6 +3,7 @@ language: python
 runtime:
   - nodePool: u16
   - nodePool: u16-BYON
+  - nodePool: default-restricted
   
 python:
    - 2.7
