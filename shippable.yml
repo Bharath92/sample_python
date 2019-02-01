@@ -5,13 +5,7 @@ runtime:
   - nodePool: u16-BYON
   
 python:
- # - 2.6 
-  - 2.7
- # - 3.2
- # - 3.3
- # - 3.4
- # - pypy
- # - pypy3
+   - 2.7
 
 build:
   cache: true
@@ -34,9 +28,7 @@ integrations:
     - integrationName: email         
       type: email        
       recipients:
-        - shiptest.rc.ow@gmail.com
-        - shiptest.rc.me@gmail.com
-        - varsha@shippable.com
+        - bharath@shippable.com
       sendConsoleLogs: true
       sendCoverageReports: true
       on_start: always
