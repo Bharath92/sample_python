@@ -1,7 +1,7 @@
 language: python
 
 runtime:
-  - nodePool: default_node_pool
+  - nodePool: u16
   - nodePool: u16-BYON
   - nodePool: default
   
